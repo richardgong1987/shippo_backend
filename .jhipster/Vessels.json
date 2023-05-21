@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20230521022608",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "vessels",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ownerid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "naccs",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Vessels",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
